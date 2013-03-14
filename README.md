@@ -8,9 +8,11 @@ This module makes it easy to complete the 3-legged oauth process from the comman
 
 ## Installation
 Install the necessary gems:
+
 	%> bundle install
 
 Create the config file (using the sample):
+
 	%> cp config.sample.yaml config.yaml
 
 NOTE: Make sure you're config file is writable by you (or your app) so that it can store the oauth token & secret for you. 
