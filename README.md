@@ -15,7 +15,7 @@ Create the config file (using the sample):
 
 	%> cp config.sample.yaml config.yaml
 
-NOTE: Make sure you're config file is writable by you (or your app) so that it can store the oauth token & secret for you. 
+NOTE: Make sure your config file is writable by you (or your app) so that it can store the oauth token & secret for you. 
 
 Go to http://www.tumblr.com/oauth/apps to get the consumer key & consumer secret for your app.
 
