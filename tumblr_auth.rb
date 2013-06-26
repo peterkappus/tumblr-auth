@@ -24,7 +24,7 @@ module TumblrAuth
       #request_token = consumer.get_request_token(:exclude_callback => true)
       request_token = consumer.get_request_token(:oauth_callback => "http://localhost")
       
-      request_token = consumer.get_request_token
+     # request_token = consumer.get_request_token
 
       # Leg 2: pasting this in url and getting oauth_verifier
       puts "Open this URL in your browser and allow access."
