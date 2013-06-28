@@ -23,7 +23,7 @@ module TumblrAuth
       # https://groups.google.com/forum/?fromgroups#!topic/tumblr-api/foJZZdSKO2s
       #request_token = consumer.get_request_token(:exclude_callback => true)
       request_token = consumer.get_request_token(:oauth_callback => "http://localhost")
-      
+
       # Leg 2: pasting this in url and getting oauth_verifier
       puts "Open this URL in your browser and allow access."
       puts request_token.authorize_url
